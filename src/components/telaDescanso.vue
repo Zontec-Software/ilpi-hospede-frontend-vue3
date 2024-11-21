@@ -4,7 +4,7 @@
             :autoplay="{
                 delay: 10000,
                 disableOnInteraction: false
-            }" :navigation="false" :modules="modules" class="mySwiper">
+            }" :navigation="false" :modules="modules" class="mySwiper swiper">
             <swiper-slide><img src="/images/1.jpg" alt=""></swiper-slide>
             <swiper-slide><img src="/images/2.jpg" alt=""></swiper-slide>
             <swiper-slide><img src="/images/3.jpg" alt=""></swiper-slide>
@@ -92,23 +92,19 @@ export default {
 }
 
 .swiper {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
-}
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    z-index: 1000;
+    background-color: black;
 }
-
 .swiper-slide img {
-    display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
