@@ -48,11 +48,11 @@ export default {
         },
         hideScreen() {
             this.isVisible = false;
-            this.resetInactivityTimer(); // Reinicia o timer ao esconder a tela
+            this.resetInactivityTimer();
         },
         resetInactivityTimer() {
             clearTimeout(this.inactivityTimeout);
-            this.inactivityTimeout = setTimeout(this.showScreen, 5000); // Mostra a tela após 10 segundos de inatividade
+            this.inactivityTimeout = setTimeout(this.showScreen, 10000); // Mostra a tela após 10 segundos de inatividade
         }
     },
     mounted() {
@@ -95,7 +95,7 @@ export default {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
+    width: 100vw; 
     height: 100vh;
     display: flex;
     justify-content: center;

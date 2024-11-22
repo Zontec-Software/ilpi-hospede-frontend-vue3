@@ -1,10 +1,10 @@
 {
-    "name": "Asilo Hóspedes",
-    "short_name": "Hóspedes",
+    "name": "ILPI Hóspedes",
+    "short_name": "ILPI",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#ffffff",
-    "theme_color": "#4DBA87",
+    "theme_color": "#89b2c6",
     "icons": [
         {
             "src": "img/icons/android-chrome-192x192.png",
