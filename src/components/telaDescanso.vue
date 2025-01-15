@@ -9,6 +9,7 @@
             <swiper-slide><img src="/images/2.jpg" alt=""></swiper-slide>
             <swiper-slide><img src="/images/3.jpg" alt=""></swiper-slide>
             <swiper-slide><img src="/images/4.jpg" alt=""></swiper-slide>
+            <swiper-slide><img src="/images/5.jpg" alt=""></swiper-slide>
         </swiper>
     </transition>
 </template>

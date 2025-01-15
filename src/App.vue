@@ -14,3 +14,13 @@ export default {
   },
 };
 </script>
+<style>
+*::-webkit-scrollbar {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--cor-separador);
+  border-radius: 20px;
+}
+</style>
